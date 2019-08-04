@@ -1,0 +1,271 @@
+<html>
+<title>RPFD Car Raffle</title>
+<meta charset="UTF-8">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&display=swap">
+
+    <body>
+      <div id = "container">
+				
+		<body class="w3-light-grey">
+				<div class = "sideBar">
+					<ul id = "test">
+						<h1 id = "rpfdTitle"><b> Rocky Point Fire Department </b></h1>
+						<h1 id = "welcome"> Welcome to our 5th annual car raffle! </p></h1>
+					  	<a href="#" class="about">About Us</a>
+					  	<a href="#" class="purchase">Purchase A Ticket</a></l1>
+					  	<a href="#" class="winner">Winner</a></l1>
+					</ul>
+				</div>
+			<div id = "aboutContainer"></div>
+        	<div id = "winnerContainer">Winner</div>
+        	<div id = "purchaseContainer">Purchase A Ticket </div>
+      </div>
+
+    </body>
+
+    <style>
+      
+        body,h1,h2,h3,h4,h5{
+          font-family: "Oswald", swap;
+        }
+
+        body{
+          background-image: url("images/webground.png");
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          background-position:relative;
+          resize: both;
+          width: 100%;
+          height: 100%;
+        }
+
+		
+        #container{
+		  scroll-behavior: smooth;
+		  display:inline;
+		  vertical-align: middle;
+		  text-align:center;
+        }
+        
+        #container div{
+          position:relative;
+          width:100%;
+          height:100%;
+        }
+
+		#text{
+			position:relative;
+			top:-900px;
+		}
+
+        #container div#aboutContainer{
+			background-image: url("images/RPFDabout.jpg");
+			-webkit-background-size: cover;
+          	-moz-background-size: cover;
+          	-o-background-size: cover;
+          	background-size: cover;
+        }
+        #container div#winnerContainer{
+          background-color:blue;
+        }
+        #container div#purchaseContainer{
+          background-color:green;
+        }
+
+        .sideBar{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+        }
+
+        #rpfdTitle{
+          position: relative;
+          font-size:64px;
+          font-family: "Oswald",swap;
+          text-align: center;
+        }
+
+        #welcome{
+          position: relative;
+          font-size:44px;
+          font-family: "Oswald",swap;
+          text-align: center;
+        }
+
+		/*buttons start*/
+
+        .about {
+	      	text-decoration:none;
+	      	font-family:Arial;
+	      	box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 3px 2px;
+	      	o-box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 3px 2px;
+	      	-moz-box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 3px 2px;
+	     	-webkit-box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 3px 2px;
+	     	background:#2b9ea6;
+	    	background:-o-linear-gradient(90deg, #2b9ea6, #3b9ceb);
+	    	background:-moz-linear-gradient( center top, #2b9ea6 5%, #3b9ceb 100% );
+	    	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #2b9ea6), color-stop(1, #3b9ceb) );
+	     	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2b9ea6', endColorstr='#3b9ceb');
+	      	background:-webkit-linear-gradient(#2b9ea6, #3b9ceb);
+	     	background:-ms-linear-gradient(#2b9ea6, #3b9ceb);
+	     	background:linear-gradient(#2b9ea6, #3b9ceb);
+	      	text-indent:0px;
+	      	line-height:5px;
+			-moz-border-radius:25px 0 0 0;
+			-webkit-border-radius:25px 0 0 0;
+			border-radius:25px 0 0 0;
+			text-align:center;
+	      	vertical-align:middle;
+	     	display:inline-block;
+	     	font-size:21px;
+	      	color:#ffffff;
+	      	width:123px;
+	      	height:5px;
+	      	padding:13px;
+	      	text-shadow:#6daac2 2px 2px 0px;
+	      	border-color:#659dab;
+      		border-width:3px;
+	      	border-style:solid;
+        }     
+
+        .about:active {
+	      	box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 0 2px;
+	      	o-box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 0 2px;
+	      	-moz-box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 0 2px;
+	      	-webkit-box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 0 2px;
+	      	position:relative;
+	      	top:3px;
+		  
+        }
+
+      	.about:hover {
+	    	background:#3b9ceb;
+	      	background:-o-linear-gradient(90deg, #3b9ceb, #2b9ea6);
+	      	background:-moz-linear-gradient( center top, #3b9ceb 5%, #2b9ea6 100% );
+	      	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3b9ceb), color-stop(1, #2b9ea6) );
+	      	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3b9ceb', endColorstr='#2b9ea6');
+	      	background:-webkit-linear-gradient(#3b9ceb, #2b9ea6);
+	      	background:-ms-linear-gradient(#3b9ceb, #2b9ea6);
+	      	background:linear-gradient(#3b9ceb, #2b9ea6);
+      	}
+
+		.purchase {
+			text-decoration:none;
+			font-family:Arial;
+			box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 3px 2px;
+			o-box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 3px 2px;
+			-moz-box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 3px 2px;
+			-webkit-box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 3px 2px;
+			background:#2b9ea6;
+			background:-o-linear-gradient(90deg, #2b9ea6, #3b9ceb);
+			background:-moz-linear-gradient( center top, #2b9ea6 5%, #3b9ceb 100% );
+			background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #2b9ea6), color-stop(1, #3b9ceb) );
+			filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2b9ea6', endColorstr='#3b9ceb');
+			background:-webkit-linear-gradient(#2b9ea6, #3b9ceb);
+			background:-ms-linear-gradient(#2b9ea6, #3b9ceb);
+			background:linear-gradient(#2b9ea6, #3b9ceb);
+			text-indent:0px;
+			line-height:0px;
+			-moz-border-radius:2px 2px 0 0;
+			-webkit-border-radius:2px 2px 0 0;
+			border-radius:2px 2px 0 0;
+			text-align:center;
+			vertical-align:middle;
+			display:inline-block;
+			font-size:21px;
+			color:#ffffff;
+			width:220px;
+			height:0px;
+			padding:13px;
+			text-shadow:#6daac2 2px 2px 0px;
+			border-color:#659dab;
+			border-width:3px;
+			border-style:solid;
+		}
+
+		.purchase:active {
+			box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 0 2px;
+			o-box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 0 2px;
+			-moz-box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 0 2px;
+			-webkit-box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 0 2px;
+			position:relative;
+			top:3px
+		}		
+
+		.purchase:hover {
+			background:#3b9ceb;
+			background:-o-linear-gradient(90deg, #3b9ceb, #2b9ea6);
+			background:-moz-linear-gradient( center top, #3b9ceb 5%, #2b9ea6 100% );
+			background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3b9ceb), color-stop(1, #2b9ea6) );
+			filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3b9ceb', endColorstr='#2b9ea6');
+			background:-webkit-linear-gradient(#3b9ceb, #2b9ea6);
+			background:-ms-linear-gradient(#3b9ceb, #2b9ea6);
+			background:linear-gradient(#3b9ceb, #2b9ea6);
+		}
+
+
+
+		.winner {
+			text-decoration:none;
+			font-family:Arial;
+			box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 3px 2px;
+			o-box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 3px 2px;
+			-moz-box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 3px 2px;
+			-webkit-box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 3px 2px;
+			background:#2b9ea6;
+			background:-o-linear-gradient(90deg, #2b9ea6, #3b9ceb);
+			background:-moz-linear-gradient( center top, #2b9ea6 5%, #3b9ceb 100% );
+			background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #2b9ea6), color-stop(1, #3b9ceb) );
+			filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2b9ea6', endColorstr='#3b9ceb');
+			background:-webkit-linear-gradient(#2b9ea6, #3b9ceb);
+			background:-ms-linear-gradient(#2b9ea6, #3b9ceb);
+			background:linear-gradient(#2b9ea6, #3b9ceb);
+			text-indent:0px;
+			line-height:0px;
+			-moz-border-radius:0 25px 0 0;
+			-webkit-border-radius:0 25px 0 0;
+			border-radius:0 25px 0 0;
+			text-align:center;
+			vertical-align:middle;
+			display:inline-block;
+			font-size:21px;
+			color:#ffffff;
+			width:176px;
+			height:0px;
+			padding:13px;
+			text-shadow:#6daac2 2px 2px 0px;
+			border-color:#659dab;
+			border-width:3px;
+			border-style:solid;
+		}
+
+		.winner:active {
+			box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 0 2px;
+			o-box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 0 2px;
+			-moz-box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 0 2px;
+			-webkit-box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 0 2px;
+			position:relative;
+			top:3px
+		}
+
+		.winner:hover {
+			background:#3b9ceb;
+			background:-o-linear-gradient(90deg, #3b9ceb, #2b9ea6);
+			background:-moz-linear-gradient( center top, #3b9ceb 5%, #2b9ea6 100% );
+			background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3b9ceb), color-stop(1, #2b9ea6) );
+			filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3b9ceb', endColorstr='#2b9ea6');
+			background:-webkit-linear-gradient(#3b9ceb, #2b9ea6);
+			background:-ms-linear-gradient(#3b9ceb, #2b9ea6);
+			background:linear-gradient(#3b9ceb, #2b9ea6);
+		}
+
+		/*buttons end*/
+
+    </style>
